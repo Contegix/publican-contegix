@@ -1,1 +1,11 @@
-SETUP This file should be a short description of your project
+This is the publican brand for Contegix (README borrowed from: https://github.com/skord/OpenNMS-Publican-Brand/blob/master/README)
+
+To install:
+
+cd publican-contegix
+
+Build it:
+publican build --formats xml --langs all --publish
+
+Install it:
+sudo publican install_brand --path /usr/share/publican/Common_Content
